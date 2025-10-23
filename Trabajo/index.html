@@ -5,9 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Inicio</title>
+
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- AOS  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- CSS  -->
     <link rel="stylesheet" href="../css/main.css">
+
 </head>
 
 <body>
@@ -58,15 +64,13 @@
 
         <div class="vid">
             <video muted autoplay loop>
-                <source src="./medios/bmwfondo.mp4">
+                <source src="./medios/Ferrari F40 Midnight Run  4K Cinematic - Remnant Media (720p, h264).mp4">
             </video>
         </div>
 
     </article>
     <main>
-        <h1 class="tituloindx">
-            Bienvenidos
-        </h1>
+        <div data-aos="fade-down" class="tituloindx">Bienvenidos</div>
         <br>
         <div>
             <p class="textoinicio">
@@ -80,10 +84,7 @@
                 🔥 Unite al mundo de la velocidad. Sentí la potencia. Viví la experiencia SALA Performance. 🔥
             </p>
         </div>
-        <h1 class="tituloindx">
-            Nosotros
-        </h1>
-        <br>
+        <div data-aos="fade-right" class="tituloindx">Nosotros</div>
         <div>
             <p class="textoinicio"> En SALA Performance vivimos la pasión por los autos de carreras. Somos una empresa
                 dedicada a la venta y
@@ -99,10 +100,8 @@
 
                 Cada vehículo que pasa por nuestras manos refleja nuestra filosofía: potencia, precisión y estilo.</p>
         </div>
-        <h1 class="tituloindx">
-            Nuestra Historia
-        </h1>
-        <br>
+        <div data-aos="fade-left" class="tituloindx">Nuestra Historia</div>
+
         <div>
             <p class="textoinicio"> SALA Performance nació de una pasión: la velocidad.
                 Todo comenzó como un pequeño proyecto entre fanáticos del automovilismo que soñaban con llevar la
@@ -155,5 +154,8 @@
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
     </script>
 </body>
-
+ <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </html>
