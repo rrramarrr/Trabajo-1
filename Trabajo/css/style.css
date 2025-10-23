@@ -168,35 +168,3 @@ nav ul p {
 } */
 
 
-@media (min-width: 230px) {
-    body {
-        padding: 20px;
-    }
-
-    header,
-    main,
-    footer {
-        padding: 20px;
-        text-align: left;
-    }
-
-    h1 {
-        font-size: 2em;
-    }
-
-    h2 {
-        font-size: 1.5em;
-    }
-
-    p {
-        font-size: 1.2em;
-    }
-
-    .gale {
-        display: flex;
-        width: 370px;
-        height: 150px;
-        margin: auto;
-
-    }
-}
