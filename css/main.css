@@ -268,7 +268,7 @@ video {
 .imgcarru {
   width: 60%;
   height: 50%;
-  display: block;
+  display: flex;
   margin-left: auto;
   margin-right: auto;
 }
@@ -290,6 +290,14 @@ video {
   font-weight: bold;
   max-width: 1000px;
   margin: auto;
+}
+
+.imgcarruau {
+  width: 60%;
+  height: 50%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .ubicacion {
@@ -559,7 +567,7 @@ textarea {
 @media (min-width: 993px) {
   .imgcarru {
     width: 60%;
-    height: 50%;
+    height: 30%;
   }
   body {
     scrollbar-width: none;
@@ -590,6 +598,10 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+  }
+  .imgcarruau {
+    width: 50%;
+    height: 30%;
   }
 }
 

@@ -144,7 +144,7 @@
 
     .imgcarru {
         width: 60%;
-        height: 50%;
+        height: 30%;
     }
     body {  
         scrollbar-width: none;
@@ -182,5 +182,10 @@
         align-items: center;    
         flex-direction: column;
 
+    }
+
+    .imgcarruau {
+        width: 50%;
+        height: 30%;
     }
 }

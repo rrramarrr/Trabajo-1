@@ -30,7 +30,7 @@
 .imgcarru {
     width: 60%;
     height: 50%;
-    display: block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
 }
@@ -45,4 +45,12 @@
     font-weight: bold;
     max-width: 1000px;
     margin: auto;
+}
+
+.imgcarruau {
+    width: 60%;
+    height: 50%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
 }
