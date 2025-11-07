@@ -4,7 +4,28 @@ body {
     scrollbar-color: rgb(252, 217, 217) beige;
 }
 
+@mixin txt {
+    font-size: 15px;
+    font-weight: bold;
+    color: $color-texto;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+    max-width: 1000px;
+    margin: auto;
+    
 
+}
+
+
+
+@mixin encabezado {
+    font-size: 32px;
+    font-weight: bold;
+    color: $color-secundario;
+    text-align: center;
+    margin-bottom: 20px;
+}
 
 ul {
     li {
@@ -45,8 +66,7 @@ nav {
     }
 }
 
-.margen
-{
+.margen {
     margin-top: 50px;
     padding: 20px;
 }

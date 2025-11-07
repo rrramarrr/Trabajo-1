@@ -81,6 +81,7 @@ video {
 }
 
 .textoinicio {
+    @include txt;
     font-size: 15px;
     color: $color-texto;
     text-align: center;

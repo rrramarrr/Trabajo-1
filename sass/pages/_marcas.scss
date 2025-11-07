@@ -22,13 +22,17 @@
 }
 
 .txtgale {
+    @include txt;
     font-size: 15px;
     text-align: center;
-    color: $color-texto;
+    color: $color-blueoscuro;
 
 }
 
 .txtmarca {
+    @include txt;
+    font-size: 25px;
+    text-shadow: 2px 2px 8px rgb(255, 255, 255);
     color: $color-secundario;
     text-align: center;
 

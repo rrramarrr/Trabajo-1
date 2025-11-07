@@ -36,6 +36,7 @@
 }
 
 .txtgale {
+    @include txt;
     font-size: 15px;
     color: $color-wht;
     text-align: center;

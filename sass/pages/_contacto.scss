@@ -141,6 +141,7 @@ textarea {
 }
 
 .txtcontact{
+    @include txt;
     color: $color-electricblue;
     font-size: 25px;
     text-align: center;
