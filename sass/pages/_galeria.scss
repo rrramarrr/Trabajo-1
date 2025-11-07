@@ -1,0 +1,47 @@
+.galeria {
+    color: rgb(23, 182, 255);
+    text-align: center;
+    text-decoration: underline;
+    font-size: 25px;
+    margin: 20px;
+}
+
+.gama {
+    font-size: 35px;
+    text-decoration: underline;
+    text-decoration-color: $color-texto;
+    color: rgb(255, 0, 0);
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.marg {
+    margin-right: 20px;
+}
+
+.exp {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    color: $color-texto;
+}
+
+.imgcarru {
+    width: 60%;
+    height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.txtgale {
+    font-size: 15px;
+    color: $color-wht;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    max-width: 1000px;
+    margin: auto;
+}

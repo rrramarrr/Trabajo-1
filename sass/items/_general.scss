@@ -1,0 +1,52 @@
+body {
+    color: $color-principal;
+    background-color: $color-fondo;
+    scrollbar-color: rgb(252, 217, 217) beige;
+}
+
+
+
+ul {
+    li {
+        a {
+            font-weight: 900;
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
+
+div {
+    ul {
+        li {
+            font-weight: 900;
+        }
+    }
+}
+
+nav {
+    ul {
+        img {
+
+            height: 150px;
+        }
+    }
+}
+
+nav {
+
+    ul {
+
+
+        p {
+            font-size: 14px;
+
+        }
+    }
+}
+
+.margen
+{
+    margin-top: 50px;
+    padding: 20px;
+}

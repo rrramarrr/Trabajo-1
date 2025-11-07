@@ -1,0 +1,186 @@
+// Mobile
+
+@media (max-width: 576px) {
+
+    body {
+        scrollbar-width: none;
+    }
+
+     .footer-container {
+        flex-direction: column; 
+        text-align: center;
+    }
+    
+    .footer-section {
+        padding: 10px 0;
+        min-width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .footer-section h3 {
+        border-bottom: none;
+    }
+    
+    .social-links a {
+        margin: 0 10px; 
+    }
+    
+    .gimg {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .principal {
+        width: 90%;
+        padding-top: 200px;
+    }
+
+    .opciones-radio {
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+
+    }
+
+    .gale {
+        display: flex;
+        width: 100%;
+        height: 250px;
+        margin: auto;
+    }
+
+    .ubicacion {
+        height: 100%;
+        width: 100%;
+        left: 0%;
+    }
+}
+
+// Tablet
+@media (min-width: 577px) and (max-width: 768px) {
+
+    body {
+        scrollbar-width: none;
+    }
+
+    
+    .gimg {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .principal {
+        width: 80%;
+        padding-top: 150px;
+    }
+
+    .opciones-radio {
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+
+    }
+
+    .gale {
+        display: flex;
+        width: 100%;
+        height: 300px;
+        margin: auto;
+    }
+
+    .ubicacion {
+        height: 100%;
+        width: 100%;
+        left: 0%;
+    }
+}
+
+// tablet grande
+@media (min-width: 769px) and (max-width: 992px)
+{
+    .imgcarru {
+        width: 70%;
+        height: 60%;
+    }
+    body {
+        scrollbar-width: none;
+    }
+
+    .gimg {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .principal {
+        width: 70%;
+        padding-top: 100px;
+    }
+
+    .opciones-radio {
+        flex-direction: row;
+        gap: 20px;
+        align-items: center;
+
+    }
+
+    .gale {
+        display: flex;
+        width: 100%;
+        height: 350px;
+        margin: auto;
+    }
+
+    .ubicacion {
+        height: 100%;
+        width: 100%;
+        left: 0%;
+    }
+}
+
+// Desktop
+@media (min-width: 993px)   
+
+{
+
+    .imgcarru {
+        width: 60%;
+        height: 50%;
+    }
+    body {  
+        scrollbar-width: none;
+    }
+
+    .gimg {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .principal {
+        width: 60%;
+        padding-top: 50px;
+    }
+
+    .opciones-radio {
+        flex-direction: row;
+        gap: 20px;
+        align-items: center;
+
+    }
+
+    .gale {
+        display: flex;
+        width: 100%;
+        height: 400px;
+        margin: auto;
+    }
+
+    .ubicacion {
+        height: 20rem;
+        width: 40rem;
+        display: center;
+        justify-content: center;
+        align-items: center;    
+        flex-direction: column;
+
+    }
+}

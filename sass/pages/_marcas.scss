@@ -1,0 +1,36 @@
+.gale {
+    display: flex;
+    width: 800px;
+    height: 430px;
+    margin: auto;
+
+    .gimg {
+        width: 0;
+        flex-grow: 1;
+        object-fit: cover;
+        opacity: .8;
+        transition: .5s ease;
+    }
+
+    .gimg:hover {
+
+        cursor: crosshair;
+        width: 300px;
+        opacity: 1;
+        filter: contrast(120%);
+    }
+}
+
+.txtgale {
+    font-size: 15px;
+    text-align: center;
+    color: $color-texto;
+
+}
+
+.txtmarca {
+    color: $color-secundario;
+    text-align: center;
+
+
+}
