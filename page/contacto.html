@@ -11,6 +11,8 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- AOS  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- CSS  -->
     <link rel="stylesheet" href="../css/main.css">
 </head>
@@ -50,24 +52,26 @@
         </nav>
 
 
-        <h1 class="titcontact">📞 Contacto - SALA Performance 🏁</h1>
+        <h1 class="titcontact" data-aos="fade-down" data-aos-duration="2000" class="contenedor-contacto">📞 Contacto - SALA Performance 🏁</h1>
+        <div data-aos="fade-down" data-aos-duration="2000" class="contenedor-contacto">
+            <p class="textoinicio">
 
-        <p class="textoinicio">
+                En SALA Performance siempre estamos dispuestos a escucharte. Nos apasiona la velocidad y el trabajo
+                bien hecho, pero sobre todo, nos importa estar cerca de nuestros clientes. Si tenés dudas, querés
+                más información sobre nuestros vehículos o simplemente necesitás asesoramiento, no dudes en
+                comunicarte con nosotros.
 
-            En SALA Performance siempre estamos dispuestos a escucharte. Nos apasiona la velocidad y el trabajo
-            bien hecho, pero sobre todo, nos importa estar cerca de nuestros clientes. Si tenés dudas, querés
-            más información sobre nuestros vehículos o simplemente necesitás asesoramiento, no dudes en
-            comunicarte con nosotros.
+                Nuestro equipo está preparado para responderte lo antes posible y ayudarte a encontrar la mejor
+                opción para tu estilo de conducción y tus objetivos en pista.
 
-            Nuestro equipo está preparado para responderte lo antes posible y ayudarte a encontrar la mejor
-            opción para tu estilo de conducción y tus objetivos en pista.
+                👇 Aquí abajo vas a encontrar un formulario de contacto, nuestra ubicación para que puedas
+                visitarnos personalmente, y una breve encuesta para conocer tu experiencia con nosotros.
 
-            👇 Aquí abajo vas a encontrar un formulario de contacto, nuestra ubicación para que puedas
-            visitarnos personalmente, y una breve encuesta para conocer tu experiencia con nosotros.
-
-            💬 En SALA Performance, tu opinión y tu pasión por los autos nos impulsan a seguir mejorando cada
-            día.
-        </p>
+                💬 En SALA Performance, tu opinión y tu pasión por los autos nos impulsan a seguir mejorando cada
+                día.
+            </p>
+            >
+        </div>
     </header>
     <main>
 
@@ -186,5 +190,9 @@
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
     </script>
 </body>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 
 </html>

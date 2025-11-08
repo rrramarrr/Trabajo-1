@@ -15,23 +15,26 @@
         z-index: 2;
         text-align: center;
         color: $color-texto;
-            .txtvid {
-                color: $color-wht;
-                font-size: 40px;
-                font-weight: bold;
-                text-shadow: 2px 2px 8px rgba(67, 1, 1);
-            }
-            .txtvid2 {
-                color: $color-wht;
-                font-size: 40px;
-                margin-top: 60px;
-                text-shadow: 2px 2px 8px rgb(67, 1, 1);
-                
-            }
+
+        .txtvid {
+            color: $color-wht;
+            font-size: 40px;
+            font-weight: bold;
+            text-shadow: 2px 2px 8px rgba(67, 1, 1);
+        }
+
+        .txtvid2 {
+            color: $color-wht;
+            font-size: 40px;
+            margin-top: 60px;
+            text-shadow: 2px 2px 8px rgb(67, 1, 1);
+
+        }
 
     }
 
     .boton1 {
+        @include brilloboton;
         margin: auto;
         display: flex;
         justify-content: center;
@@ -64,14 +67,14 @@
 }
 
 video {
-
+    max-width: 100%;
     @extend .vid;
     object-fit: cover;
 
 }
 
 .tituloindx {
-
+    margin: 20px;
     text-align: center;
     font-size: 40px;
     color: $color-principal;
@@ -96,4 +99,120 @@ video {
 .imgcarruindx {
     width: 20%;
     height: auto;
+}
+
+.indxejem {
+
+    text-align: center;
+    font-size: 30px;
+    color: $color-principal;
+    text-decoration: underline;
+    text-decoration-color: $color-texto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+}
+
+.contenedor-alineado {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1500px;
+    margin: 20px auto;
+    border: 1px solid #b70f0f;
+    padding: 10px;
+}
+
+
+.lado-izquierdo {
+
+    flex: 0 0 auto;
+    padding-right: 20px;
+
+    .lado-izquierdo img {
+        max-width: 100px;
+        height: auto;
+        display: block;
+    }
+
+
+}
+
+
+.lado-derecho {
+    flex-grow: 1;
+
+    text-align: right;
+
+    .lado-derecho h2 {
+        margin-top: 10px;
+    }
+
+    .titlado {
+        text-align: center;
+        font-size: 40px;
+        color: $color-principal;
+        text-decoration: underline;
+        text-decoration-color: $color-texto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .txtlado {
+        text-align: center;
+        font-size: 20px;
+        color: $color-wht;
+        margin: 10px 0;
+        font-weight: bold;
+    }
+
+}
+
+.imglado {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imgladoi {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contenedor-asimetrico {
+  border: 1px solid #b70f0f;
+  padding: 10px;
+  display: flex; 
+  
+  width: 100%; 
+  
+  align-items: center; 
+}
+
+.columna-izquierda {
+  
+  flex: 3; 
+  padding-right: 20px; 
+  
+  text-align: left; 
+}
+
+.columna-derecha {
+  
+  flex: 2; 
+}
+
+.columna-derecha img {
+ 
+  max-width: 100%; 
+  width: 700px;
+  height: auto;
+  
+  display: block; 
+  margin-left: auto; 
 }

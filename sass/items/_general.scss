@@ -1,3 +1,4 @@
+
 body {
     color: $color-principal;
     background-color: $color-fondo;
@@ -13,7 +14,7 @@ body {
     margin-bottom: 30px;
     max-width: 1000px;
     margin: auto;
-    
+
 
 }
 
@@ -26,6 +27,22 @@ body {
     text-align: center;
     margin-bottom: 20px;
 }
+
+@mixin brilloboton {
+    .hover-shine {
+        background-color: #007bff;
+        color: white;
+        transition: background-color 0.4s ease;
+
+
+        .hover-shine:hover {
+            background-color: #0056b3;
+            cursor: pointer;
+        }
+
+    }
+}
+
 
 ul {
     li {

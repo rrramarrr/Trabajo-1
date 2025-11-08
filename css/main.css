@@ -123,6 +123,15 @@ footer {
   margin-top: 60px;
   text-shadow: 2px 2px 8px rgb(67, 1, 1);
 }
+.banner .boton1 .hover-shine {
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.4s ease;
+}
+.banner .boton1 .hover-shine .hover-shine:hover {
+  background-color: #0056b3;
+  cursor: pointer;
+}
 .banner .boton1 {
   margin: auto;
   display: flex;
@@ -152,10 +161,12 @@ footer {
 }
 
 video {
+  max-width: 100%;
   object-fit: cover;
 }
 
 .tituloindx {
+  margin: 20px;
   text-align: center;
   font-size: 40px;
   color: red;
@@ -185,6 +196,102 @@ video {
 .imgcarruindx {
   width: 20%;
   height: auto;
+}
+
+.indxejem {
+  text-align: center;
+  font-size: 30px;
+  color: red;
+  text-decoration: underline;
+  text-decoration-color: beige;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.contenedor-alineado {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1500px;
+  margin: 20px auto;
+  border: 1px solid #b70f0f;
+  padding: 10px;
+}
+
+.lado-izquierdo {
+  flex: 0 0 auto;
+  padding-right: 20px;
+}
+.lado-izquierdo .lado-izquierdo img {
+  max-width: 100px;
+  height: auto;
+  display: block;
+}
+
+.lado-derecho {
+  flex-grow: 1;
+  text-align: right;
+}
+.lado-derecho .lado-derecho h2 {
+  margin-top: 10px;
+}
+.lado-derecho .titlado {
+  text-align: center;
+  font-size: 40px;
+  color: red;
+  text-decoration: underline;
+  text-decoration-color: beige;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.lado-derecho .txtlado {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.imglado {
+  width: 80%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imgladoi {
+  width: 80%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contenedor-asimetrico {
+  border: 1px solid #b70f0f;
+  padding: 10px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.columna-izquierda {
+  flex: 3;
+  padding-right: 20px;
+  text-align: left;
+}
+
+.columna-derecha {
+  flex: 2;
+}
+
+.columna-derecha img {
+  max-width: 100%;
+  width: 700px;
+  height: auto;
+  display: block;
+  margin-left: auto;
 }
 
 .gale {
@@ -305,7 +412,7 @@ video {
   height: 50px;
   position: relative;
   top: 50%;
-  left: 30%;
+  left: 26%;
   display: center;
   color: beige;
   font-size: 25px;
@@ -501,7 +608,53 @@ textarea {
     width: 100%;
     left: 0%;
   }
+  .contenedor-alineado {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+  .lado-izquierdo {
+    flex: 0 0 30%;
+    padding-right: 20px;
+  }
+  .lado-izquierdo img {
+    max-width: 0%;
+  }
+  .lado-derecho {
+    text-align: 10px;
+  }
 }
+.titlado {
+  text-align: center;
+  font-size: 40px;
+  color: red;
+  text-decoration: underline;
+  text-decoration-color: beige;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.txtlado {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.imgladoi {
+  width: 0%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.imgladoi .columna-derecha {
+  flex: 2;
+  width: 200px;
+}
+
 @media (min-width: 577px) and (max-width: 768px) {
   body {
     scrollbar-width: none;
@@ -529,6 +682,25 @@ textarea {
     height: 100%;
     width: 100%;
     left: 0%;
+  }
+  .contenedor-alineado {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 760px;
+  }
+  .lado-izquierdo {
+    flex: 0 0 25%;
+    padding-right: 25px;
+  }
+  .lado-derecho {
+    flex-grow: 1;
+    font-size: 0.9em;
+    text-align: center;
+  }
+  .lado-derecho h2 {
+    font-size: 1.5em;
   }
 }
 @media (min-width: 769px) and (max-width: 992px) {
@@ -563,6 +735,22 @@ textarea {
     width: 100%;
     left: 0%;
   }
+  .titlado {
+    text-align: center;
+    font-size: 40px;
+    color: red;
+    text-decoration: underline;
+    text-decoration-color: beige;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .txtlado {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin: 10px 0;
+    font-weight: bold;
+  }
 }
 @media (min-width: 993px) {
   .imgcarru {
@@ -592,6 +780,7 @@ textarea {
     margin: auto;
   }
   .ubicacion {
+    max-width: 100%;
     height: 20rem;
     width: 40rem;
     display: center;
@@ -602,6 +791,22 @@ textarea {
   .imgcarruau {
     width: 50%;
     height: 30%;
+  }
+  .titlado {
+    text-align: center;
+    font-size: 40px;
+    color: red;
+    text-decoration: underline;
+    text-decoration-color: beige;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .txtlado {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin: 10px 0;
+    font-weight: bold;
   }
 }
 
