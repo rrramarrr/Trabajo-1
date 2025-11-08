@@ -100,7 +100,7 @@
 
 
 .imgladoi {
-    width: 0%;
+    width: 0px;
     height: auto;
     display: block;
     margin-left: auto;
@@ -183,8 +183,18 @@
     .lado-derecho h2 {
         font-size: 1.5em;
     }
+
+    .columna-derecha img {
+ 
+  max-width: 0%; 
+  
 }
 
+    .imgladoi {
+        width: 0px;
+       
+}
+}
 // tablet grande
 @media (min-width: 769px) and (max-width: 992px) {
     .imgcarru {
@@ -243,8 +253,19 @@
         margin: 10px 0;
         font-weight: bold;
     }
+    
+   .columna-derecha img {
+ 
+  max-width: 0%; 
+    
 
 }
+
+
+    .imgladoi {
+        width: 0px;
+    }
+
 
 // Desktop
 @media (min-width: 993px) {
@@ -317,6 +338,11 @@
         font-weight: bold;
     }
 
+    .columna-derecha img {
+ 
+  max-width: 0%; 
+  
+}
 
-
+}
 }

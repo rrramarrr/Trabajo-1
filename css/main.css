@@ -644,7 +644,7 @@ textarea {
 }
 
 .imgladoi {
-  width: 0%;
+  width: 0px;
   height: auto;
   display: block;
   margin-left: auto;
@@ -702,6 +702,12 @@ textarea {
   .lado-derecho h2 {
     font-size: 1.5em;
   }
+  .columna-derecha img {
+    max-width: 0%;
+  }
+  .imgladoi {
+    width: 0px;
+  }
 }
 @media (min-width: 769px) and (max-width: 992px) {
   .imgcarru {
@@ -751,8 +757,14 @@ textarea {
     margin: 10px 0;
     font-weight: bold;
   }
+  .columna-derecha img {
+    max-width: 0%;
+  }
+  .imgladoi {
+    width: 0px;
+  }
 }
-@media (min-width: 993px) {
+@media (min-width: 769px) and (max-width: 992px) and (min-width: 993px) {
   .imgcarru {
     width: 60%;
     height: 30%;
@@ -807,6 +819,9 @@ textarea {
     color: white;
     margin: 10px 0;
     font-weight: bold;
+  }
+  .columna-derecha img {
+    max-width: 0%;
   }
 }
 
